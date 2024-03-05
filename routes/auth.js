@@ -49,3 +49,7 @@ router.post('/logout', function(req, res, next) {
     res.redirect('/');
   });
 });
+
+router.get('/signup', function(req, res, next) {
+  res.render('signup');
+});
